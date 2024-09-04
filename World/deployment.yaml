@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: world-microservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: world-microservice
+  template:
+    metadata:
+      labels:
+        app: world-microservice
+    spec:
+      containers:
+      - name: world-microservice
+        image: gcr.io/augmented-ward-434500-u6/world-microservice:latest
+        ports:
+        - containerPort: 8080

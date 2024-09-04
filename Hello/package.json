@@ -1,0 +1,23 @@
+{
+    "name": "272-hello-microservice",
+    "version": "1.0.0",
+    "description": "A simple Node.js microservice",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",         
+        "dev": "nodemon src/app.js",
+        "test": "jest --coverage"
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "nodemon": "^3.1.4",
+        "supertest": "^6.3.3"
+    },
+    "author": "Drishti Sachdev",
+    "license": "ISC"
+}
