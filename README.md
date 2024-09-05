@@ -94,8 +94,8 @@ Common issues
   ->Reapply deployment
   
 Links to docker images,
-https://console.cloud.google.com/artifacts/docker/augmented-ward-434500-u6/us/gcr.io/my-app?project=augmented-ward-434500-u6
-https://console.cloud.google.com/artifacts/docker/augmented-ward-434500-u6/us/gcr.io/world-microservice?project=augmented-ward-434500-u6
+https://hub.docker.com/repository/docker/drishtisachdev/helloservice/general
+https://hub.docker.com/repository/docker/drishtisachdev/worldmicroservice/general
 
 
 	
